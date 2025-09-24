@@ -1,0 +1,43 @@
+# Core dependencies
+docopt==0.6.2
+python-dotenv==1.0.1
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+# Selenium for browser automation
+selenium==4.25.0
+webdriver-manager==4.0.2  # Automatically manages ChromeDriver
+
+# Encryption for cookie storage
+cryptography==43.0.1
+
+# Type checking
+typing-extensions==4.12.2
+
+# Data handling
+pandas==2.2.3
+openpyxl==3.1.5
+
+# Database
+sqlalchemy==2.0.35
+
+# Rate limiting and retries
+ratelimit==2.2.1
+tenacity==9.0.0
+
+# Testing
+pytest==8.3.3
+pytest-cov==5.0.0
+pytest-mock==3.14.0
+responses==0.25.3
+
+# Development tools
+black==24.10.0
+ruff==0.7.2
+mypy==1.13.0
+types-requests==2.32.0.20241016
+types-beautifulsoup4==4.12.0.20240907
+
+# Job scheduling (optional, for future cron-like functionality)
+schedule==1.2.2

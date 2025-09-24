@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Directories that are built by the script
+data/
+
+# Claude
+claude.md
+CLAUDE.md
